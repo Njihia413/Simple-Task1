@@ -22,41 +22,51 @@
                             <h3 class="text-center">Welcome To<br>Three <span>Modern Systems</span> K Ltd</h3>
                             <p class="text-center">Create an Account</p>
                             <div class="inner-signup-card">
-                                <form>
+                                <form class="requires-validation" novalidate>
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="first_name" class="required">First Name</label>
                                                 <input type="text" id="first_name" autocomplete="off" class="form-control" name="first_name" placeholder="First Name" required>
+                                                <div class="valid-feedback">First Name field is valid!</div>
+                                                <div class="invalid-feedback">First Name field cannot be blank!</div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="last_name" class="required">Last Name</label>
                                                 <input type="text" id="last_name" autocomplete="off" class="form-control" name="last_name" placeholder="Last Name" required>
+                                                <div class="valid-feedback">Last Name field is valid!</div>
+                                                <div class="invalid-feedback">Last Name field cannot be blank!</div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <label for="email" class="required">Email</label>
+                                                <label for="email" class="required">Email Address</label>
                                                 <input type="email" id="email" autocomplete="off" class="form-control" name="email" placeholder="Email" required>
+                                                <div class="valid-feedback">Email field is valid!</div>
+                                                <div class="invalid-feedback">Email field cannot be blank!</div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="username" class="required">Username</label>
                                                 <input type="text" id="username" autocomplete="off" class="form-control" name="username" placeholder="Username" required>
+                                                <div class="valid-feedback">Username field is valid!</div>
+                                                <div class="invalid-feedback">Username field cannot be blank!</div>
                                             </div>
                                         </div>
                                         <div class="col-md-12">
                                             <div class="form-group">
                                                 <label for="password" class="required">Password</label>
                                                 <input type="password" id="password" class="form-control" name="password" placeholder="Password" required>
+                                                <div class="valid-feedback">Password field is valid!</div>
+                                                <div class="invalid-feedback">Password field cannot be blank!</div>
                                             </div>
                                         </div>
                                         <div class="col-md-12">
                                             <div class="form-group">
-                                                <button type="submit" class="btn btn-login">Create Account</button>
+                                                <button type="submit" class="btn btn-login" id="btn-login">Create Account</button>
                                             </div>
                                           </div>
                                         <div class="col-md-12 text-center">

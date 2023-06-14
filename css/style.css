@@ -10,11 +10,11 @@ body {
 }
 
 .bg-primary {
-  background-color: #9085D1 !important;
+  background-color: #6c63ff !important;
 }
 
 .main-color {
-  color: #9085D1 !important;
+  color: #6c63ff !important;
 }
 
 .secondary-color {
@@ -34,7 +34,7 @@ body {
 }
   
 .login-heading {
-    color: #9085D1;
+    color: #6c63ff;
     margin-top: 30px;
 }
 
@@ -74,7 +74,7 @@ body {
     border-radius: 30px;
   }
 
-  .btn:hover {
+.btn:hover {
     color: #102437;
     background-color: #fff;
     border-color: #102437;
@@ -101,7 +101,7 @@ body {
 }
 
 span {
-  color: #9085D1;
+  color: #6c63ff;
 }
 
 /*End of Signup Page*/
@@ -118,3 +118,11 @@ span {
 }
 
 /*End of Reset Page*/
+
+.invalid-feedback{
+  color: #dc3545;
+}
+
+.valid-feedback{
+  color: #198754;
+}

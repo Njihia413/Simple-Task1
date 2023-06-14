@@ -27,7 +27,7 @@
                 <div class="row d-flex justify-content-center">
                     <div class="col-md-5">
                         <div class="reset-card">
-                            <form>
+                            <form class="requires-validation" novalidate>
                                 <div class="row">
                                     <div class="col-md-12">
                                         <p>Please enter your email address and we'll send you a reset password link.</p>
@@ -36,11 +36,13 @@
                                         <div class="form-group">
                                             <label for="email" class="required">Email Address</label>
                                             <input type="email" id="email" autocomplete="off" class="form-control" name="email" placeholder="Email" required>
+                                            <div class="valid-feedback">Email field is valid!</div>
+                                            <div class="invalid-feedback">Email field cannot be blank!</div>
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <button type="submit" class="btn btn-login">Reset Password</button>
+                                            <button type="submit" class="btn btn-login" id="btn-login">Reset Password</button>
                                         </div>
                                     </div>
                                     <div class="col-md-12 text-center">
