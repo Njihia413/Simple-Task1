@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+.bg-primary {
+  background-color: #9085D1 !important;
+}
+
+.main-color {
+  color: #9085D1 !important;
+}
+
+.secondary-color {
+    color: #102437 !important;
+}
+
+/*Beginning of Login Page*/
+
+
+.login-card {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 1px solid rgba(0,0,0,.125);
+    margin-bottom: 10vh;
+}
+  
+.login-heading {
+    color: #9085D1;
+    margin-top: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+  
+.form-group label {
+    margin-bottom: 10px;
+}
+
+.form-group input {
+    height: 49px;
+}
+    ::placeholder {
+      color: #AEB0B4;
+      font-size: 15px;
+    }
+
+    :focus,
+    :active {
+        box-shadow: none;
+      }
+  
+    .required:after {
+      content: " *";
+      color: red;
+    
+  }
+
+  .btn-login {
+    width: 100%;
+    background-color:#102437;
+    color: #fff;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 30px;
+  }
+
+  .btn:hover {
+    color: #102437;
+    background-color: #fff;
+    border-color: #102437;
+}
+/*End of Login Page*/
+
+/*Beginning of Signup Page*/
+/*Beginning of sign up page */
+.outer-signup-card {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: 1px solid rgba(0,0,0,.125);
+  margin-bottom: 10vh;
+}
+
+.inner-signup-card {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: 1px solid rgba(0,0,0,.125);
+}
+
+span {
+  color: #9085D1;
+}
+
+/*End of Signup Page*/
+
+/*Beginning of Reset Page*/
+
+.reset-card {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: 1px solid rgba(0,0,0,.125);
+  margin-bottom: 10vh;
+}
+
+/*End of Reset Page*/
