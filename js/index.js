@@ -14,14 +14,6 @@
       })
     })();
 
-  // var myButton = document.getElementById("btn-login");
-
-  // myButton.addEventListener("click", function() {
-  // // Modify the button's appearance
-  // myButton.style.backgroundColor = "#102437";
-  // myButton.style.color = "white";
-  // myButton.style.fontWeight = "bold";
-  // })
 
   const sideMenu = document.querySelector("aside");
   const menuBtn = document.querySelector("#menu-btn");
@@ -59,10 +51,12 @@
   }) 
 
 
+var logout = document.getElementById("logout");
+logout.addEventListener("click", () => {
 
-
-  
-
+  // Redirect to the login.html
+  window.location.href = "login.html"; 
+})
 
 
 

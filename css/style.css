@@ -104,6 +104,14 @@ span {
   color: #6c63ff;
 }
 
+.btn-registration {
+  width: 100%;
+  background-color:#102437;
+  color: #fff;
+  padding: 10px;
+  font-weight: 700;
+  border-radius: 30px;
+}
 /*End of Signup Page*/
 
 /*Beginning of Reset Page*/
@@ -127,3 +135,18 @@ span {
   color: #198754;
 }
 
+.btn-reset {
+  width: 100%;
+  background-color:#102437;
+  color: #fff;
+  padding: 10px;
+  font-weight: 700;
+  border-radius: 30px;
+}
+
+#successMessage {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
