@@ -52,11 +52,5 @@ const Orders = [
         productNumber: "36378",
         paymentStatus: "Refunded",
         shipping: "Declined"
-    },
-    {
-        productName: "Ruko F11 Pro Drone",
-        productNumber: "49347",
-        paymentStatus: "Due",
-        shipping: "Pending"
     }
 ]
